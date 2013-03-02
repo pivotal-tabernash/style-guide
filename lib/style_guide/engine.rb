@@ -1,6 +1,7 @@
 require "rails/engine"
 require "style_guide/config"
 require "style_guide/section"
+require 'style_guide/jade_compiler'
 
 module StyleGuide
   class Engine < ::Rails::Engine

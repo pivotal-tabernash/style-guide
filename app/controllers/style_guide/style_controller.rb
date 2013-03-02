@@ -8,6 +8,7 @@ module StyleGuide
     end
 
     def show
+      puts StyleGuide::ApplicationHelper
       @current_section = @sections.detect { |section| section.id == params[:id] }
     end
   end
